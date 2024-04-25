@@ -9,7 +9,10 @@ public class main
         Console.Write("Enter last name:");
 
         string lastName = Console.ReadLine();
+
         Console.Write("Enter age:");
+
+        int nashe = 2;
 
         int age = int.Parse(Console.ReadLine());
 
@@ -17,7 +20,7 @@ public class main
 
         Console.WriteLine("Are you employee?");
         string response = Console.ReadLine();
-        bool isEmployee = response.ToLower().Equals("y") || response.ToLower().Equals("yes");
+        bool isEmployee = response.ToLower().Equals("yes");
 
         if (isEmployee)
         {

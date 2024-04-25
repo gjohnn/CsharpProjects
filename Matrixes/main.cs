@@ -22,7 +22,7 @@ public class main
             Console.WriteLine(" ");
         }
 
-
+        Console.Read();
     }
 
     public static string[,] productsToFill()
